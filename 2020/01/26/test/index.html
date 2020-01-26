@@ -11,7 +11,7 @@
 
 
 
-<title>Math | Hexo</title>
+<title>test | Hexo</title>
 
 
 
@@ -145,73 +145,11 @@
             <div class="container">
     
     
-        <div class="post-toc">
-    <div class="tocbot-list">
-    </div>
-    <div class="tocbot-list-menu">
-        <a class="tocbot-toc-expand" onclick="expand_toc()">Expand all</a>
-        <a onclick="go_top()">Back to top</a>
-        <a onclick="go_bottom()">Go to bottom</a>
-    </div>
-</div>
-
-<script>
-    document.ready(
-        function () {
-            tocbot.init({
-                tocSelector: '.tocbot-list',
-                contentSelector: '.post-content',
-                headingSelector: 'h1, h2, h3, h4, h5',
-                collapseDepth: 1,
-                orderedList: false,
-                scrollSmooth: true,
-            })
-        }
-    )
-
-    function expand_toc() {
-        var b = document.querySelector(".tocbot-toc-expand");
-        tocbot.init({
-            tocSelector: '.tocbot-list',
-            contentSelector: '.post-content',
-            headingSelector: 'h1, h2, h3, h4, h5',
-            collapseDepth: 6,
-            orderedList: false,
-            scrollSmooth: true,
-        });
-        b.setAttribute("onclick", "collapse_toc()");
-        b.innerHTML = "Collapse all"
-    }
-
-    function collapse_toc() {
-        var b = document.querySelector(".tocbot-toc-expand");
-        tocbot.init({
-            tocSelector: '.tocbot-list',
-            contentSelector: '.post-content',
-            headingSelector: 'h1, h2, h3, h4, h5',
-            collapseDepth: 1,
-            orderedList: false,
-            scrollSmooth: true,
-        });
-        b.setAttribute("onclick", "expand_toc()");
-        b.innerHTML = "Expand all"
-    }
-
-    function go_top() {
-        window.scrollTo(0, 0);
-    }
-
-    function go_bottom() {
-        window.scrollTo(0, document.body.scrollHeight);
-    }
-
-</script>
-    
 
     
     <article class="post-wrap">
         <header class="post-header">
-            <h1 class="post-title">Math</h1>
+            <h1 class="post-title">test</h1>
             
                 <div class="post-meta">
                     
@@ -220,7 +158,7 @@
 
                     
                         <span class="post-time">
-                        Date: <a href="#">February 3, 2019&nbsp;&nbsp;20:22:00</a>
+                        Date: <a href="#">January 26, 2020&nbsp;&nbsp;14:07:01</a>
                         </span>
                     
                     
@@ -229,29 +167,7 @@
         </header>
 
         <div class="post-content">
-            <h1 id="数学"><a href="#数学" class="headerlink" title="数学"></a>数学</h1><h2 id="解三角形"><a href="#解三角形" class="headerlink" title="解三角形"></a>解三角形</h2><h3 id="正弦定理"><a href="#正弦定理" class="headerlink" title="正弦定理"></a>正弦定理</h3><ol>
-<li>$sinA = sin(C+B)$ , 因为 $sin(2\pi- A )=sinA$</li>
-</ol>
-<script type="math/tex; mode=display">
-\frac{a}{sinA}=\frac{b}{sinB}=\frac{c}{sinC}=2R</script><h4 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h4><p>其中$R$是三角形外接圆半径,证明可以用三角形外角倒来倒去证明,也可以用下面一种方法:</p>
-<p><img src="https://i.loli.net/2019/02/03/5c56d4aef2be4.png" alt="外接圆"></p>
-<p>因为圆周角相同所以$sinD=sinC$,又因为$\ang BAD=90°$,所以$sinC=\dfrac{c}{2R}$</p>
-<p>所以$\dfrac{c}{sinC}=2R$,同理可得$\dfrac{b}{sinB}=2R,\dfrac{a}{sinA}=2R$,命题得证.</p>
-<h4 id="变式"><a href="#变式" class="headerlink" title="变式"></a>变式</h4><ol>
-<li><script type="math/tex; mode=display">
-\frac{a+b+c}{sinA+sinB+sinC}=\frac{a}{sinA}=\frac{b}{sinB}=\frac{c}    {sinC}=2R</script><p>因为$\dfrac{a}{sinA}=\dfrac{b}{sinB}$,所以$asinB=bsinA$</p>
-<script type="math/tex; mode=display">
-\dfrac{a+b}{sinA+sinB}=\dfrac{a}{sinA}\\
-sinA\cdot(a+b)=a\cdot(sinA + sinB)\\
-asinA + bsinB=asinA+asinB\\</script><p>得证</p>
-</li>
-<li><script type="math/tex; mode=display">
-sinA:sinB:sinB=a:b:c</script><p>大边对大角,小边对小角,而且$sin$值在$180°$以内没有负数<br>同时要<strong>注意</strong>,不要把$sinX$误认为$\ang X$</p>
-</li>
-<li><script type="math/tex; mode=display">
-S_{\Delta ABC}=\dfrac{1}{2}ab\cdot sinC=\dfrac{1}{2}bc\cdot sinA=\dfrac{1}{2}ac\cdot sinB</script><p>延申就是$a$边上的垂线长度为$bsinC$或者$csinB$</p>
-</li>
-</ol>
+            <p>$T(n) = \Theta(n)$</p>
 
         </div>
 
@@ -266,7 +182,7 @@ S_{\Delta ABC}=\dfrac{1}{2}ab\cdot sinC=\dfrac{1}{2}bc\cdot sinA=\dfrac{1}{2}ac\
                 
                     <p class="copyright-item">
                         <span>Permalink:</span>
-                        <span><a href="http://yoursite.com/2019/02/03/Math/">http://yoursite.com/2019/02/03/Math/</a></span>
+                        <span><a href="http://yoursite.com/2020/01/26/test/">http://yoursite.com/2020/01/26/test/</a></span>
                     </p>
                 
                 
@@ -290,7 +206,7 @@ S_{\Delta ABC}=\dfrac{1}{2}ab\cdot sinC=\dfrac{1}{2}bc\cdot sinA=\dfrac{1}{2}ac\
                 <span class="tag">
                     
                     
-                        <a href="/tags/Math/"># Math</a>
+                        <a href="/tags/test/"># test</a>
                     
                         
                 </span>
@@ -303,8 +219,8 @@ S_{\Delta ABC}=\dfrac{1}{2}ab\cdot sinC=\dfrac{1}{2}bc\cdot sinA=\dfrac{1}{2}ac\
         </section>
         <section class="post-nav">
             
-                <a class="prev" rel="prev" href="/2020/01/26/test/">test</a>
             
+            <a class="next" rel="next" href="/2019/02/03/Math/">Math</a>
             
         </section>
 
